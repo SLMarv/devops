@@ -11,3 +11,9 @@ describe('First term', function() {
       assert.strictEqual(main.factorial(0), 1);
     });
 });
+
+describe('Negative', function() {
+    it('passing a negative should return undefined', function() {
+        assert.strictEqual(main.factorial(-4), undefined);
+      });
+  });
